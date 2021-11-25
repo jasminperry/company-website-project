@@ -1,0 +1,154 @@
+html {
+  color: gray;
+  background-color: white;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Cutive Mono", monospace;
+}
+
+h2,
+h4,
+h5,
+h6,
+p {
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+span {
+  font-family: "Satisfy", cursive;
+  font-weight: lighter;
+  color: rgb(73, 216, 213);
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  position: fixed;
+  z-index: 200;
+  background-color: white;
+  box-shadow: 0px 2px 5px grey;
+}
+
+.logo {
+  padding-left: 10px;
+}
+
+main {
+  position: relative;
+  top: 76px;
+}
+
+body {
+  margin: 0;
+}
+
+.links {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  padding-right: 10px;
+}
+
+a {
+  padding: 10px 10px;
+  text-decoration: none;
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+a:visited {
+  color: rgba(73, 216, 213);
+}
+
+a:hover {
+  background-color: rgba(73, 216, 213, 0.7);
+  border-radius: 5px;
+  color: white;
+  box-shadow: 2px 2px 5px grey;
+}
+
+#banner {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+#banner img {
+  max-width: 50%;
+}
+
+.tagline {
+  z-index: 150;
+}
+
+.tagline h2 {
+  font-size: 2.5rem;
+  font-family: "Cutive Mono", monospace;
+}
+
+.float {
+  height: 50%;
+  width: 85%;
+  background-color: rgba(73, 216, 213, 0.7);
+  position: absolute;
+  z-index: 5;
+  align-self: flex-end;
+}
+
+.flexfloat {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 40%;
+  margin: 0 auto;
+}
+
+h3 {
+  padding: 20px;
+  font-family: "Cutive Mono", monospace;
+  font-size: 2em;
+}
+
+.item img {
+  max-width: 300px;
+  max-height: 200px;
+}
+
+.item {
+  display: block;
+  padding: 0 15px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: baseline;
+}
+
+#services {
+  width: 80%;
+  margin: 0 auto;
+}
+
+h2 {
+  padding: 20px;
+}
+
+.contact {
+  color: white;
+  background-color: rgba(73, 216, 213, 0.7);
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.contact p {
+  padding: 0 20px;
+}
+
+#team {
+  padding-bottom: 30px;
+}
